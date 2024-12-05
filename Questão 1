@@ -1,0 +1,31 @@
+using System;
+
+namespace MyCompiler {
+    class Program {
+        public static void Main(string[] args) {
+            
+            int numero = int.Parse(Console.ReadLine());
+
+            if(numero == 61){
+                Console.WriteLine("A cidade e Brasília");
+            }if(numero == 71){
+                Console.WriteLine("A cidade e Salvador");
+            }if(numero == 11){
+                Console.WriteLine("A cidade e Sao Paulo");
+            }if(numero == 21){
+                Console.WriteLine("A cidade e Rio de Janeiro");
+            }if(numero == 32){
+                Console.WriteLine("A cidade e Juiz de Fora");
+            }if(numero == 19){
+                Console.WriteLine("A cidade e Campinas");
+            }if(numero == 27){
+                Console.WriteLine("A cidade e Vitoria");
+            }if(numero == 31){
+                Console.WriteLine("A cidade e Belo Horizonte");
+            }else{
+                Console.WriteLine("DDD nao cadastrado");
+                
+            }
+        }
+    }
+}
